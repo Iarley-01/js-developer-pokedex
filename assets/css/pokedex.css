@@ -127,6 +127,25 @@
     height: 70px;
 }
 
+#modal-button {
+    background-color: #6c79db;
+    border: none;
+    border-radius: 0.4rem;
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .750rem;
+    cursor: pointer;
+}
+
+#modal-button:hover {
+  background-color: #4b5391;
+}
+
+.show-more {
+    align-self: center;
+}
+
 .pagination {
     display: flex;
     flex-direction: row;
@@ -144,6 +163,11 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #1a1391;
 }
 
 @media screen and (min-width: 380px) {
